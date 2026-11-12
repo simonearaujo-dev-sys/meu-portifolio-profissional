@@ -4,7 +4,7 @@
  ## 🔗 Links
  - *🌐 Página publicada:* https://simonearaujo-dev-sys.github.io/meu-portfolio-profissional/
  - *📂 Repositório:* https://github.com/simonearaujo-dev-sys/meu-portfolio-profissional
- - *📑 Apresentação de Slides: *[Ver apresentação no Google](https://docs.google.com/presentation/d/1qebGbIWnGQDXrDPs5xus_MGRCmcyvXMkuYzLoJoDgus/edit?slide=id.h4a2fa415cd8f60bb_0_0#slide=id.h4a2fa415cd8f60bb_0_0)
+ - *📑 Apresentação de Slides: [Ver apresentação no Google](https://docs.google.com/presentation/d/1qebGbIWnGQDXrDPs5xus_MGRCmcyvXMkuYzLoJoDgus/edit?slide=id.h4a2fa415cd8f60bb_0_0#slide=id.h4a2fa415cd8f60bb_0_0)
  ## 🛠️ Tecnologias Utilizadas
  - *HTML5* — Estruturação de conteúdo
  - *Bootstrap 5* — Layout responsivo e componentes prontos
