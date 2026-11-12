@@ -1,0 +1,310 @@
+<!DOCTYPE html> 
+ <html lang="pt-BR"> 
+ <head> 
+ <meta charset="UTF-8"> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <title>Simone Araujo.dev</title> 
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"> 
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"> 
+ <style> 
+ .carousel-item { 
+ height: 95vh; 
+ } 
+ .carousel-item img { 
+ height: 100%; 
+ object-fit: cover; 
+ }
+ .profile-img {
+   width: 220px;
+   height: 220px;
+   object-fit: cover;
+ }
+ .embed-responsive {
+   position: relative;
+   width: 100%;
+   padding-top: 56.25%;
+ }
+ .embed-responsive iframe {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   border: none;
+   border-radius: 0.5rem;
+   box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+ }
+ </style> 
+ </head> 
+ <body class="bg-light">
+ <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top shadow-sm"> 
+   <div class="container"> 
+     <a class="navbar-brand fw-bold" href="#">Simone Araujo.dev</a> 
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"> 
+       <span class="navbar-toggler-icon"></span> 
+     </button> 
+     <div class="collapse navbar-collapse" id="menu"> 
+       <ul class="navbar-nav ms-auto"> 
+         <li class="nav-item"> 
+           <a class="nav-link" href="#perfil">Perfil</a> 
+         </li> 
+         <li class="nav-item"> 
+           <a class="nav-link" href="#jornada">Minha Jornada</a> 
+         </li>
+         <li class="nav-item"> 
+           <a class="nav-link" href="#projetos">Projetos</a> 
+         </li> 
+         <li class="nav-item"> 
+           <a class="nav-link" href="#contato">Contato</a> 
+         </li> 
+       </ul> 
+     </div> 
+   </div> 
+ </nav>    
+ <!-- CARROSSEL -->
+ <div id="carouselPortfolio" class="carousel slide carousel-fade" data-bs-ride="carousel"> 
+   <div class="carousel-indicators"> 
+     <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="0" class="active"></button> 
+     <button type="button" data-bs-target="#carouselPortfolio" data-bs-slide-to="1"></button> 
+   </div> 
+   <div class="carousel-inner"> 
+     <div class="carousel-item active"> 
+       <img src="imagens/carrossel-1.jpg" class="d-block w-100" alt="Desenvolvimento Web"> 
+     </div> 
+     <div class="carousel-item"> 
+       <img src="imagens/carrossel-2.jpg" class="d-block w-100" alt="Sistemas e Dados"> 
+     </div> 
+   </div> 
+   <button class="carousel-control-prev" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="prev"> 
+     <span class="carousel-control-prev-icon"></span> 
+   </button> 
+   <button class="carousel-control-next" type="button" data-bs-target="#carouselPortfolio" data-bs-slide="next"> 
+     <span class="carousel-control-next-icon"></span> 
+   </button> 
+ </div> 
+ <!-- PERFIL -->
+ <section id="perfil" class="bg-white min-vh-100 d-flex align-items-center py-5"> 
+   <div class="container py-4"> 
+     <div class="row align-items-center g-5"> 
+       <div class="col-lg-4 text-center"> 
+         <img src="imagens/foto-perfil.jpg" alt="Foto de perfil" 
+           class="profile-img rounded-circle border border-4 border-white shadow img-fluid mb-3">
+         <h4 class="fw-bold mt-3 mb-1">Simone Araujo</h4> 
+         <p class="text-muted mb-2">Desenvolvimento de Sistemas</p> 
+         <span class="badge bg-primary px-3 py-2">Portfólio Acadêmico</span>           
+       </div> 
+       <div class="col-lg-8"> 
+         <p class="text-uppercase text-muted fw-semibold mb-2">Desenvolvimento de Sistemas</p> 
+         <h2 class="text-primary fw-bold mb-3">Perfil Profissional</h2> 
+         <p class="fs-5 text-secondary"> 
+           Sou estudante da área de tecnologia com foco em desenvolvimento web, interfaces responsivas 
+           e construção de soluções digitais. Tenho interesse em projetos front-end, organização visual 
+           e uso de boas práticas no desenvolvimento.
+         </p> 
+         <div class="row mt-4 g-3"> 
+           <div class="col-md-6"> 
+             <div class="card border-0 shadow-sm h-100"> 
+               <div class="card-body">
+                 <h4 class="fw-bold mb-3">Fale comigo</h4> 
+                 <p class="text-muted mb-4"> 
+                   Estou em constante aprendizado e disponível para trocar ideias, compartilhar projetos 
+                   e construir novas conexões profissionais. 
+                 </p> 
+                 <h6 class="fw-bold mb-2">Localização</h6> 
+                 <p class="text-muted mb-0">Carapicuíba/SP</p> 
+               </div> 
+             </div> 
+           </div> 
+           <div class="col-md-6"> 
+             <div class="card border-0 shadow-sm h-100"> 
+               <div class="card-body"> 
+                 <h6 class="fw-bold mb-2">Área de interesse</h6> 
+                 <p class="text-muted mb-0">Desenvolvimento Web</p> 
+               </div> 
+             </div> 
+           </div> 
+           <div class="col-md-6"> 
+             <div class="card border-0 shadow-sm h-100"> 
+               <div class="card-body"> 
+                 <h6 class="fw-bold mb-2">Formação</h6> 
+                 <p class="text-muted mb-0">Desenvolvimento de Sistemas — EAD</p> 
+               </div> 
+             </div> 
+           </div> 
+           <div class="col-md-6"> 
+             <div class="card border-0 shadow-sm h-100"> 
+               <div class="card-body"> 
+                 <h6 class="fw-bold mb-2">Objetivo</h6> 
+                 <p class="text-muted mb-0">Criar interfaces modernas e projetos digitais</p> 
+               </div> 
+             </div> 
+           </div> 
+         </div> 
+       </div> 
+     </div> 
+     <!-- TECNOLOGIAS -->
+     <div class="mt-5"> 
+       <h5 class="fw-semibold mb-3 text-center">Tecnologias e ferramentas</h5> 
+       <div class="row g-4"> 
+         <div class="col-md-6"> 
+           <div class="card border-0 shadow-sm h-100"> 
+             <div class="card-body"> 
+               <div class="d-flex align-items-center gap-3 mb-3"> 
+                 <i class="devicon-html5-plain colored fs-2"></i> 
+                 <div>
+                   <div class="fw-semibold">HTML5</div>
+                   <small class="text-muted">Estrutura</small>
+                 </div> 
+               </div> 
+               <div class="d-flex align-items-center gap-3 mb-3"> 
+                 <i class="devicon-css3-plain colored fs-2"></i> 
+                 <div>
+                   <div class="fw-semibold">CSS3</div>
+                   <small class="text-muted">Estilo</small>
+                 </div> 
+               </div> 
+               <div class="d-flex align-items-center gap-3"> 
+                 <i class="devicon-bootstrap-plain colored fs-2"></i> 
+                 <div>
+                   <div class="fw-semibold">Bootstrap</div>
+                   <small class="text-muted">Layout</small>
+                 </div> 
+               </div> 
+             </div> 
+           </div> 
+         </div>  
+         <div class="col-md-6"> 
+           <div class="card border-0 shadow-sm h-100"> 
+             <div class="card-body"> 
+               <div class="d-flex align-items-center gap-3 mb-3"> 
+                 <i class="devicon-python-plain colored fs-2"></i> 
+                 <div>
+                   <div class="fw-semibold">Python</div>
+                   <small class="text-muted">Algoritmos</small>
+                 </div> 
+               </div> 
+               <div class="d-flex align-items-center gap-3 mb-3"> 
+                 <i class="devicon-github-original fs-2"></i> 
+                 <div>
+                   <div class="fw-semibold">GitHub</div>
+                   <small class="text-muted">Repositórios</small>
+                 </div> 
+               </div> 
+               <div class="d-flex align-items-center gap-3"> 
+                 <i class="devicon-vscode-plain colored fs-2"></i> 
+                 <div>
+                   <div class="fw-semibold">VS Code</div>
+                   <small class="text-muted">Ambiente de desenvolvimento</small>
+                 </div> 
+               </div> 
+             </div> 
+           </div> 
+         </div> 
+       </div> 
+     </div> 
+   </div> 
+ </section>
+ <!-- MINHA JORNADA — SLIDES -->
+ <section id="jornada" class="py-5 bg-light">
+   <div class="container py-4">
+     <div class="text-center mb-5">
+       <h2 class="text-primary fw-bold">Minha Jornada</h2>
+       <p class="text-muted mb-0">Conheça minha trajetória e meus objetivos na área de tecnologia.</p>
+     </div>
+     <div class="row justify-content-center">
+       <div class="col-lg-8">
+         <div class="card shadow-sm border-0 rounded-4 p-4">
+           <h5 class="fw-semibold text-center mb-4">Apresentação</h5>
+           <div class="embed-responsive">
+             
+             <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ02xlW7fMwpoky8JdhWzvsIv8ULoHCOBdT8fSH2AtSgyQQ9gMaYlGY7foVvqEbafbqEUfmPfmmn0_s/pubembed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>" allowfullscreen></iframe>
+           </div>
+           <p class="text-muted text-center mt-3 small">
+             Clique nos slides para navegar • Atualizado em 2026
+           </p>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ <!-- PROJETOS -->
+ <section id="projetos" class="py-5 bg-white">
+   <div class="container py-4">
+     <div class="text-center mb-5">
+       <h2 class="text-primary fw-bold">Projetos</h2>
+       <p class="text-muted mb-0">Alguns projetos e atividades que representam minha evolução na área de desenvolvimento.</p>
+     </div>
+     <div class="row g-4">
+       <div class="col-md-6 col-xl-4">
+         <div class="card h-100 shadow-sm border-0 rounded-4">
+           <img src="imagens/sistemas-notas.jpg" class="card-img-top project-img" alt="Sitemas de Notas Escolares" style="height:200px;object-fit:cover;">
+           <div class="card-body d-flex flex-column">
+             <h5 class="card-title">Sitemas de Notas Escolares</h5>
+             <p class="card-text text-muted flex-grow-1">Programa que calcula a média das notas e diz se o aluno foi aprovado ou reprovado.</p>
+             <a href="#" class="btn btn-outline-primary mt-auto">Ver projeto</a>
+           </div>
+         </div>
+       </div>
+       <div class="col-md-6 col-xl-4">
+         <div class="card h-100 shadow-sm border-0 rounded-4">
+           <img src="imagens/sites-favoritos.jpg" class="card-img-top project-img" alt="Sites Favoritos" style="height:200px;object-fit:cover;">
+           <div class="card-body d-flex flex-column">
+             <h5 class="card-title">Sites Favoritos</h5>
+             <p class="card-text text-muted flex-grow-1">Projeto inicial utilizando HTML- explorando a construção de páginas web.</p>
+             <a href="#" class="btn btn-outline-primary mt-auto">Ver projeto</a>
+           </div>
+         </div>
+       </div>
+       <div class="col-md-6 col-xl-4">
+         <div class="card h-100 shadow-sm border-0 rounded-4">
+           <img src="imagens/portal-entretenimento.jpg" class="card-img-top project-img" alt="Portal de Entretenimento" style="height:200px;object-fit:cover;">
+           <div class="card-body d-flex flex-column">
+             <h5 class="card-title">Portal de Entretenimento</h5>
+             <p class="card-text text-muted flex-grow-1">Ferramenta para organização e acompanhamento de atividades, com interface funcional e responsiva.</p>
+             <a href="#" class="btn btn-outline-primary mt-auto">Ver projeto</a>
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+ <!-- CONTATO -->
+ <section id="contato" class="py-5">
+   <div class="container py-4">
+     <div class="text-center mb-5">
+       <h2 class="text-primary fw-bold">Contato</h2>
+       <p class="text-muted mb-0">Aberta a oportunidades, projetos e conexões na área de tecnologia.</p>
+     </div>
+     <div class="row justify-content-center">
+       <div class="col-md-8">
+         <div class="card shadow-sm border-0 rounded-4 p-4">
+           <h4 class="fw-bold mb-3 text-center">Fale comigo</h4>
+           <p class="text-muted mb-4 text-center">
+             Estou em constante aprendizado e disponível para trocar ideias, compartilhar projetos e construir novas conexões profissionais.
+           </p>
+           <div class="d-grid gap-3">
+             <a href="mailto:ssimonearaujo41@gmail.com" class="btn btn-outline-primary btn-lg">Enviar e-mail</a>
+             <a href="https://github.com/simonearaujo-dev-sys" target="_blank" class="btn btn-dark btn-lg">GitHub</a>
+             <a href="https://www.linkedin.com/in/simone-araujo-091009329/" target="_blank" class="btn btn-primary btn-lg">LinkedIn</a>
+           </div>
+           <hr class="my-4">
+           <p class="text-muted mb-0 text-center">
+             <span class="fw-semibold">Localização:</span> Carapicuíba/SP
+           </p>
+         </div>
+       </div>
+     </div>
+   </div>
+ </section>
+    
+ <!-- RODAPÉ -->
+ <footer class="bg-dark text-light py-4">
+   <div class="container text-center">
+     <p class="mb-1">© 2026 - Simone Araujo.dev</p> 
+     <small>Desenvolvido com HTML, CSS e Bootstrap — Todos os direitos reservados</small> 
+   </div>
+ </footer>
+ 
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+ </body>
+ </html>
