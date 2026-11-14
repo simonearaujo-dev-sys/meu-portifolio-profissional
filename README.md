@@ -1,7 +1,7 @@
-# Meu Portfólio Profissional
+# Meu Portifólio Profissional
  *Aluna:* Simone Araujo
  ## 📌 Sobre este Projeto
- Este repositório contém o código-fonte do meu portfólio pessoal, desenvolvido como atividade acadêmica no curso de Desenvolvimento de Sistemas. O objetivo do trabalho foi construir uma página web para apresentar meu perfil, as tecnologias que estou estudando e os projetos que venho desenvolvendo ao longo do curso.
+ Este repositório contém o código-fonte do meu portifólio pessoal, desenvolvido como atividade acadêmica no curso de Desenvolvimento de Sistemas. O objetivo do trabalho foi construir uma página web para apresentar meu perfil, as tecnologias que estou estudando e os projetos que venho desenvolvendo ao longo do curso.
  O projeto funciona como uma vitrine online: ao acessar a página, o usuário encontra uma apresentação pessoal, uma galeria com os projetos desenvolvidos e um espaço de contato com links ativos. A página se adapta automaticamente a diferentes tamanhos de tela.
  ## 🔗 Links
  - *🌐 Página publicada:* https://simonearaujo-dev-sys.github.io/meu-portifolio-profissional/
